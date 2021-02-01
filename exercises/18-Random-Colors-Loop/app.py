@@ -2,6 +2,8 @@ import random
 
 def get_color(color_number=4):
     # making sure is a number and not a string
+    for x in range(10):
+        return random.rendint(0, 4)
     color_number = int(color_number)
 
     switcher={
